@@ -55,8 +55,33 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+.hero h1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: ;
+}
+
+.hero article {
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 250px;
+    height: auto%;
+
 }
