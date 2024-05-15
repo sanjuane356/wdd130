@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
@@ -18,16 +22,25 @@ h1 {
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    display: block;
+    display: block; 
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: solid 1px steelblue;
+    padding: 20px;
+
 }
 
 img {
@@ -42,9 +55,6 @@ p {
     padding: 10px;
 }
 
-main {
-    max-width: 840px;
-}
 
 aside {
     width: 20em;
