@@ -83,7 +83,7 @@ div.hero h1 {
 div.hero article {
     position: absolute;
     max-width: 700px;
-    max-height: auto;
+    height: auto;
     top: 200px;
     left: 30px;
     padding: 0;
