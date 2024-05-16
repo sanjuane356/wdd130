@@ -25,15 +25,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+    margin: 1rem auto;
     padding: 20px;
     background-color: var(--accent1-color);
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    max-width: 1000px;
 }
 
 p {
     padding: 25px;
 }
 
-nav {
+nav, footer {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
@@ -93,4 +98,36 @@ div.hero article img {
     top: 0;
     width: 200px;
     height: auto;
+}
+
+section.grid p, section.grid image {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+section.spread {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+nav.sociallinks {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
