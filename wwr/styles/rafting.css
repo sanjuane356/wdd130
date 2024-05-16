@@ -100,14 +100,13 @@ div.hero article img {
     height: auto;
 }
 
-section.grid p, section.grid image {
-    display: grid;
+section.grid {
+    display: flex;
     text-align: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 section.spread {
