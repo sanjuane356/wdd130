@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 1.2em;
+    color: #222;
+    background: #fff;
+}
+
+label, button, input, select, textarea {
+    font-family: Roboto, Ariel, sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: green;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    background-color: lightgreen;
+    display: grid;
+    grid-gap: 0.9rem;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 0.4rem;
+    font-size: 1.2rem;
+}
+
+button {
+    margin: 1.1rem;
+    background-color: lightsalmon;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    border-radius: 1.2rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: salmon;
+}
+
+footer {
+    margin: 1.2rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #ccc;
+}
