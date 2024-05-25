@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Dry Oar Rafting Co. About Us|WDD 130</title>
-        <meta name="description" content="About page for a white water rafting company">
+        <title>Dry Oar Rafting Co. Contact Us|WDD 130</title>
+        <meta name="description" content="The Contact page for a white water rafting company about any customer questions.">
         <meta name="author" content="Emmanuel Sanjuan">
         <link href="styles/rafting.css" rel="stylesheet">
         <style>
@@ -23,55 +23,64 @@
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <img src="images/about-background-landscape.webp" alt="Background Image" width="900">
-                <h1>Dry Oar Rafting Co.</h1>
-                <article>
-                    <img src="images/happy-customers.webp" alt="Happy Customers" width="200">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente ea 
-                        autem nostrum reiciendis libero non nemo officiis, inventore doloribus 
-                        repudiandae cumque pariatur sequi culpa harum consequuntur? Nobis voluptas 
-                        aliquam accusantium voluptatum ea vel enim cum 
-                        minima eaque molestiae, itaque et?</p>
-                </article>
-            </div>
-            <section class="grid">
-                <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi 
-                    iusto distinctio nulla quia aspernatur eveniet natus nobis recusandae 
-                    maxime? Laboriosam, quae ipsam temporibus dolore aut vero commodi animi 
-                    iure nulla nisi deleniti doloremque aspernatur eos, voluptas molestias 
-                    facere ullam? Impedit velit aperiam minima omnis, corporis perspiciatis 
-                    aliquam magnam blanditiis?</p>
-                <img src="images/happy-customers.webp" alt="image" width="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores 
-                    repudiandae ducimus consequuntur quasi dolor debitis eum, 
-                    in pariatur blanditiis soluta? Officiis quo alias quis rem 
-                    excepturi, necessitatibus eligendi deserunt? Error commodi 
-                    consectetur optio dignissimos repudiandae quos asperiores 
-                    maxime earum aut, a veniam laudantium eaque assumenda accusamus
-                     cumque perferendis pariatur animi?</p>
-            </section>
-            <section class="spread">
-                <h2>Adventure Awaits You</h2>
+           <div class="contact-info">
+                <h1>Our Company Information</h1>
+                <h4>Address</h4>
+                <p>333 Watercrest ave, Springtown, Arizona ##### </p>
+                <h4>Phone Number</h4>
+                <p>(999)-999-9999</p>
+                <h4>Email</h4>
+                <p>dryoarrafting@gmail.com</p>
+                <h4>Map</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31228.35023510781!2d-112.5424926757012!3d36.93745640335241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20water%20rafting%20arizona!5e0!3m2!1sen!2sus!4v1716644249018!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+           <div class="employee-profile">
+                <h1>Our Employees</h1>
                 <figure>
-                    <img src="images/happy-customers.webp" alt="White Water Rafting" width="150">
-                    <figcaption>White Water Rafting</figcaption>
+                    <img src="http://loremflickr.com/200/300/dog" alt="Employee 1" width="200">
+                    <figcaption>Tulip</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/happy-customers.webp" alt="White Water Rafting" width="150">
-                    <figcaption>White Water Rafting</figcaption>
-                </figure>  <figure>
-                    <img src="images/happy-customers.webp" alt="White Water Rafting" width="150">
-                    <figcaption>White Water Rafting</figcaption>
-                </figure>  <figure>
-                    <img src="images/happy-customers.webp" alt="White Water Rafting" width="150">
-                    <figcaption>White Water Rafting</figcaption>
-                </figure>  <figure>
-                    <img src="images/happy-customers.webp" alt="White Water Rafting" width="150">
-                    <figcaption>White Water Rafting</figcaption>
+                    <img src="http://loremflickr.com/200/300/cats" alt="Employee 1" width="200">
+                    <figcaption>Panko</figcaption>
                 </figure>
-            </section>
+                <figure>
+                    <img src="http://loremflickr.com/200/300/birds" alt="Employee 1" width="200">
+                    <figcaption>tom</figcaption>
+                </figure>
+           </div>
+           <h1>Contact Us</h1>
+           <form>
+                <fieldset>
+                    <Legend>Contact Us</Legend>
+                    <div class="form-item column2">
+                        <label for="username">Name:</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-item column1">
+                        <p>What is the purpose of the message?</p>
+                        <input type="radio" name="purpose" id="purpose" value="general">
+                        <label for="purpose">General Inquiry</label>
+                        <Input type="radio" name="purpose" id="purpose" value="reservation">
+                        <label for="purpose">Reservation Questions</label>
+                        <input type="radio" name="purpose" id="purpose" value="suggestion">
+                        <label for="purpose">Website Suggestions</label>
+                    </div>
+                    <label for="message">Type your message here:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Place your message here"></textarea>
+                    <div class="form-item column1">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Message</button>
+           </form>
         </main>
         <footer>
             <p>©️ 2024 | Dry Oar Rafting Co. | Emmanuel Sanjuan</p>
